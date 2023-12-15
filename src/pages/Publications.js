@@ -43,7 +43,7 @@ const Publications = () => (
     <article className="post" id="publications">
       <header>
         <div className="title">
-          <h2><Link to="/publications">Projects</Link></h2>
+          <h2><Link to="/publications">Publications</Link></h2>
         </div>
       </header>
       {data.map((publication) => (

@@ -1,4 +1,3 @@
-import React from 'react';
 // import { Link } from 'react-router-dom';
 
 // import Main from '../layouts/Main';
@@ -91,48 +90,40 @@ import React from 'react';
 
 // export default Resume;
 
-const openResume = () => {
-  // Change the path to your CV file
-  const cvPath = 'files/cv.pdf';
+// workssss
+// import React from 'react';
+// const openResume = () => {
+//   // Change the path to your CV file
+//   const cvPath = 'files/cv.pdf';
 
-  // Open the PDF in a new tab or window
-  window.open(cvPath, '_self');
-};
-
-const Resume = () => (
-  <div>
-    {/* Add a button to open the resume with type="button" */}
-    <button type="button" onClick={openResume}>
-      Open Resume
-    </button>
-  </div>
-);
-
-export default Resume;
-
-// import React, { useEffect } from 'react';
-// import { useNavigate } from 'react-router-dom';
-
-// const Resume = () => {
-//   const navigate = useNavigate();
-
-//   useEffect(() => {
-//     // Change the path to your CV file
-//     const cvPath = '/files/cv.pdf';
-
-//     // Navigate to the PDF page
-//     navigate(cvPath);
-
-//     // Alternatively, you can also open the PDF in the same tab using window.location.href
-//     // window.location.href = cvPath;
-//   }, [navigate]);
-
-//   return (
-//     <div>
-//       {/* You can include other content if needed */}
-//       <h1>Your Resume Content</h1>
-//     </div>
-//   );
+//   // Open the PDF in a new tab or window
+//   window.open(cvPath, '_self');
 // };
 
+// const Resume = () => (
+//   <div>
+//     {/* Add a button to open the resume with type="button" */}
+//     <button type="button" onClick={openResume}>
+//       Open Resume
+//     </button>
+//   </div>
+// );
+
 // export default Resume;
+
+import { useEffect } from 'react';
+// import { useHistory } from 'react-router-dom';
+
+const Resume = () => {
+  // Automatically redirect to the resume when the component mounts
+  useEffect(() => {
+    const cvPath = 'files/cv.pdf';
+    window.open(cvPath, '_self');
+    window.history.replaceState(null, '', '/');
+  }, []);
+
+  // This component doesn't render anything, as it redirects immediately
+  return null;
+};
+
+export default Resume;
