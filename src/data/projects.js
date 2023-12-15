@@ -1,37 +1,28 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Future Crypto Price Prediction',
+    // subtitle: '2015 BVP Hackathon',
+    link: 'https://github.com/riyaponraj/Future-Crypto-Price-Prediction',
+    image: '/images/projects/crypto.png',
+    date: '2023-07-01',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'The project demonstrates the integration of financial prediction models with real-time decision-making in cryptocurrency trading. It uses ARIMA models to predict future Bitcoin, Ethereum, and Litecoin prices, with pickled models for adaptation and continuous learning. Users receive price predictions and suggested trading decisions based on a straightforward threshold. ',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Protein Classification',
+    link: 'https://github.com/riyaponraj/Protein-Classification',
+    image: '/images/projects/drug.jpg',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'Diverse peptides encompassing viral, bacterial, fungal, hypersensitivity, cancer, and allergenic categories, were systematically categorized. A pipeline for feature extraction from protein sequences was developed using the ProtBert model. Integration with the DeepPurpose framework resulted in distinguishing useful proteins from enzyme and protein datasets.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
+    title: 'AI powered dual way communication system for people with Audio Impairments',
+    link: 'https://github.com/riyaponraj/Real-time-communication-system-powered-by-AI-for-specially-abled',
+    image: '/images/projects/asl.jpg',
     date: '2015-06-28',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'Developed a system using Convolutional Neural Networks to convert American Sign Language  gestures into text or speech, addressing challenges like lighting conditions. Implemented a user-friendly Flask web application with a live video feed for real-time ASL gesture recognition, aiming to enhance communication for Deaf-Mute individuals through advanced technology.',
   },
   {
     title: 'Cat Detector',
