@@ -14,13 +14,14 @@ const SideBar = () => (
       <header>
         <h2>Riya Ponraj</h2>
         <p><a href="mailto:riyaponraj07@gmail.com">riyaponraj07@gmail.com</a></p>
-         <p><a href="mailto:ripo@uoregon.edu">ripo@uoregon.edu</a></p>
+        <p><a href="mailto:ripo@uoregon.edu">ripo@uoregon.edu</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I am Riya. I am a Computer Science Grad student. I am currently doing my PhD at the University of Oregon.
+      <p>Hi, I am Riya. I am a Computer Science Grad student. </p>
+      <p>I am currently doing my PhD at the University of Oregon.
       </p>
     </section>
 
